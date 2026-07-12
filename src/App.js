@@ -5,6 +5,7 @@ import "./index.css";
 import ProgressBar from "./problems/001-progress-bar/ProgressBar";
 import BacktoTop from "./problems/002-back-to-top/BacktoTop";
 import DarkMode from "./problems/003-dark-mode/DarkMode";
+import Counter from "./problems/004-usePreviousHook/Counter";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -13,7 +14,8 @@ const App = () => {
         <div className = "app">
             {/*<ProgressBar />*/}
             {/*<BacktoTop />*/}
-            <DarkMode />
+            {/*<DarkMode /> */}
+            <Counter />
         </div>
     );
 };
