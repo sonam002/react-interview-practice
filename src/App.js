@@ -8,6 +8,7 @@ import DarkMode from "./problems/003-dark-mode/DarkMode";
 import Counter from "./problems/004-usePreviousHook/Counter";
 import TogglePassword from "./problems/005-toggle-password/TogglePassword";
 import Accordion from "./problems/006-accordian/Accordian";
+import FocusInput from "./problems/007-focus-input/FocusInput";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -31,7 +32,7 @@ const App = () => {
         },
         {
             title: "Frontend Development",
-            content: "Build frontend apps with React";
+            content: "Build frontend apps with React"
         }
     ];
 
@@ -42,7 +43,8 @@ const App = () => {
             {/*<DarkMode /> */}
             {/*<Counter /> */}
             {/*<TogglePassword /> */}
-            <Accordion items={items} />
+            {/*<Accordion items={items} /> */}
+            <FocusInput />
         </div>
     );
 };
