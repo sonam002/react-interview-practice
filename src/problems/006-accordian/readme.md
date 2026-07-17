@@ -29,10 +29,6 @@ const items = [
     title: "JavaScript Basics",
     content: "Learn variables, functions, and loops in JavaScript."
   },
-  {
-    title: "React.js Overview",
-    content: "Understand components, state, and props in React."
-  }
 ];
 ```
 
