@@ -28,6 +28,10 @@ const App = () => {
         {
             title: "Full-Stack Development",
             content: "Build full-stack apps with React and Node.js."
+        },
+        {
+            title: "Frontend Development",
+            content: "Build frontend apps with React";
         }
     ];
 
