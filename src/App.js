@@ -9,6 +9,7 @@ import Counter from "./problems/004-usePreviousHook/Counter";
 import TogglePassword from "./problems/005-toggle-password/TogglePassword";
 import Accordion from "./problems/006-accordian/Accordian";
 import FocusInput from "./problems/007-focus-input/FocusInput";
+import URLValidator from "./problems/008-url-validator/URLValidator";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -44,7 +45,8 @@ const App = () => {
             {/*<Counter /> */}
             {/*<TogglePassword /> */}
             {/*<Accordion items={items} /> */}
-            <FocusInput />
+            {/*<FocusInput />*/}
+            <URLValidator />
         </div>
     );
 };
