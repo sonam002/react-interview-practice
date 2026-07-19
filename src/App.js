@@ -10,6 +10,7 @@ import TogglePassword from "./problems/005-toggle-password/TogglePassword";
 import Accordion from "./problems/006-accordian/Accordian";
 import FocusInput from "./problems/007-focus-input/FocusInput";
 import URLValidator from "./problems/008-url-validator/URLValidator";
+import MortgageCalculator from "./problems/009-mortgage-calculator/MortgageCalculator";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -46,7 +47,8 @@ const App = () => {
             {/*<TogglePassword /> */}
             {/*<Accordion items={items} /> */}
             {/*<FocusInput />*/}
-            <URLValidator />
+            {/*<URLValidator />*/}
+            <MortgageCalculator />
         </div>
     );
 };
