@@ -11,7 +11,7 @@ import Accordion from "./problems/006-accordian/Accordian";
 import FocusInput from "./problems/007-focus-input/FocusInput";
 import URLValidator from "./problems/008-url-validator/URLValidator";
 import MortgageCalculator from "./problems/009-mortgage-calculator/MortgageCalculator";
-
+import AcronymGenerator from "./problems/010-acronym-generator/AcronymGenerator";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const App = () => {
@@ -48,7 +48,8 @@ const App = () => {
             {/*<Accordion items={items} /> */}
             {/*<FocusInput />*/}
             {/*<URLValidator />*/}
-            <MortgageCalculator />
+            {/*<MortgageCalculator />*/}
+            <AcronymGenerator />
         </div>
     );
 };
