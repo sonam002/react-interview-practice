@@ -12,6 +12,9 @@ import FocusInput from "./problems/007-focus-input/FocusInput";
 import URLValidator from "./problems/008-url-validator/URLValidator";
 import MortgageCalculator from "./problems/009-mortgage-calculator/MortgageCalculator";
 import AcronymGenerator from "./problems/010-acronym-generator/AcronymGenerator";
+import TabSwitcher from "./problems/011-tab-switcher/TabSwitcher";
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const App = () => {
@@ -49,7 +52,8 @@ const App = () => {
             {/*<FocusInput />*/}
             {/*<URLValidator />*/}
             {/*<MortgageCalculator />*/}
-            <AcronymGenerator />
+            {/*<AcronymGenerator /> */}
+            <TabSwitcher />
         </div>
     );
 };
