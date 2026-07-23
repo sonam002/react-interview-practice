@@ -13,7 +13,7 @@ import URLValidator from "./problems/008-url-validator/URLValidator";
 import MortgageCalculator from "./problems/009-mortgage-calculator/MortgageCalculator";
 import AcronymGenerator from "./problems/010-acronym-generator/AcronymGenerator";
 import TabSwitcher from "./problems/011-tab-switcher/TabSwitcher";
-
+import CharacterCount from "./problems/012-character-counter/CharacterCounter";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -53,7 +53,8 @@ const App = () => {
             {/*<URLValidator />*/}
             {/*<MortgageCalculator />*/}
             {/*<AcronymGenerator /> */}
-            <TabSwitcher />
+            {/* <TabSwitcher /> */}
+            <CharacterCount />
         </div>
     );
 };
