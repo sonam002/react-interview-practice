@@ -31,7 +31,7 @@ export default function TabSwitcher() {
             {tab.label}
           </button>
         ))}
-      </div>
+      </div> 
 
       {/* Content */}
       <div className="tab-content" data-testid="tab-content">
