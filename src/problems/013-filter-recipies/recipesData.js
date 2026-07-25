@@ -1,4 +1,4 @@
-export default recipiesData = [
+const recipesData = [
   {
     id: 1,
     name: "Classic Margherita Pizza",
@@ -80,3 +80,5 @@ export default recipiesData = [
     reviewCount: 5,
   },
 ];
+
+export default recipesData;

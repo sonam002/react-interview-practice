@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import recipiesData from "./recipiesData";
+import recipesData from "./recipesData";
+import "./styles.css";
 
 const ratings = [4.0, 4.3, 4.5, 4.7, 4.9];
 
