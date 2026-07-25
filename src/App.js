@@ -14,6 +14,7 @@ import MortgageCalculator from "./problems/009-mortgage-calculator/MortgageCalcu
 import AcronymGenerator from "./problems/010-acronym-generator/AcronymGenerator";
 import TabSwitcher from "./problems/011-tab-switcher/TabSwitcher";
 import CharacterCount from "./problems/012-character-counter/CharacterCounter";
+import FilterRecipies from "./problems/013-filter-recipies/FilterRecipies";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -54,7 +55,8 @@ const App = () => {
             {/*<MortgageCalculator />*/}
             {/*<AcronymGenerator /> */}
             {/* <TabSwitcher /> */}
-            <CharacterCount />
+            {/* <CharacterCount /> */}
+            <FilterRecipies />
         </div>
     );
 };
